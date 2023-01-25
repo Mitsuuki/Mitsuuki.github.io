@@ -72,7 +72,7 @@ var images = [
         text: "TM & Tartaglia"
       },
       {
-        url: "images/Kill TM & Terrorshroom.webp",
+        url: "images/KillTm&TerrorShroom.webp",
         text: "TM & Terrorshroom"
       },
       {
