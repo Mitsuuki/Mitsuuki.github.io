@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>World Boss</title>
+</head>
+<video id="trailer" src="images/trailer.webm" type="video/webm" style="display: none;"></video>
+<body class="WorldBoss">
+    <h1 class="kot">World Boss</h1>
+    <a href="Curses.html" id="left-arrow">&larr;</a>
+    <a href="Trailer.html" id="right-arrow">&rarr;</a>
+    <div>
+        <img id="wb-image" src="images/WorldBossCard.webp" onclick="randomImage()">
+    </div>
+    <div id="image-output-modal" class="wbmodal">
+        <img id="image-output">
+        <p id="image-text"></p>
+    </div>
+    
+</body>
+<script src="worldboss.js"></script>
+</html>
