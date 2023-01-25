@@ -48,7 +48,7 @@ var images = [
         text: "Geo Hypotasis & Algorithm"
       },
       {
-        url: "images/Kill Geo Hypostasis & Terrorshroom.webp",
+        url: "images/Kill Geo Hypotasis & Terrorshroom.webp",
         text: "Geo Hypotasis & Terrorshroom"
       },
       {
