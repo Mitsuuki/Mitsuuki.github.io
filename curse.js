@@ -47,8 +47,21 @@ var texts = [
 
 function randomText() {
     var randomIndex = Math.floor(Math.random() * texts.length);
-    textOutput.innerHTML = texts[randomIndex];
+    var text = texts[randomIndex];
+    var textLength = text.length;
+    var currentIndex = 0;
+    var intervalId;
+
+    function updateText() {
+        textOutput.innerHTML = text.substring(0, currentIndex);
+        currentIndex++;
+        if (currentIndex > textLength) {
+            clearInterval(intervalId);
+        }
+    }
+
     textOutputModal.style.display = "block";
+    intervalId = setInterval(updateText, 50);
 }
 
 textOutputModal.addEventListener("click", function(event) {

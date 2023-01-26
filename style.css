@@ -67,7 +67,7 @@ body {
   align-items: center; /* center the text vertically */
   justify-content: center; /* center the text horizontally */
   margin: 25px;
-  border: 1px solid black;
+  border: 3.5px solid rgb(255, 255, 255);
   border-radius: 40px;
   padding: 10px;
   box-sizing: border-box;
@@ -181,6 +181,12 @@ body {
   transition: all 0.2s ease-in-out;
 }
 
+@media screen and (max-height: 768px) {
+  #flip-button {
+    margin-top: 30px;
+  }
+  }
+
 #flip-button:hover {
   background-color: #3e8e41; /* dark green */
   width: 130px;
@@ -279,6 +285,7 @@ body {
 .modal-content {
   background-image: url(images/CurseCardWithIcon.png);
   background-position: center center;
+  background-size: contain;
   margin: 15vh auto;
   margin-top: 30.7vh;
   padding: 2vw;
@@ -295,6 +302,7 @@ body {
   grid-template-rows: repeat(3, 1fr);
   grid-template-columns: repeat(3, 1fr);
 }
+
 
 #text-output {
 color: gray;
@@ -352,7 +360,8 @@ grid-column: 2 / 3;
 }
 
 #image-output {
-  width: 10%;
+  width: 35vh;
+  height: auto;
   position: absolute;
   top: 50%;
   left: 50%;
