@@ -1,147 +1,147 @@
 var images = [
     {
-      url: "images/AeonB (2).png",
+      url: "images/AeonB.webp",
       text: "Aeonblight"
     },
     {
-      url: "images/algo.png",
+      url: "images/algo.webp",
       text: "Algorithm"
     },
     {
-      url: "images/AndriusIII.png",
+      url: "images/andriusIII.webp",
       text: "Andrius"
     },
     {
-        url: "images/azhdaha1.png",
+        url: "images/azhdaha1.webp",
         text: "Azdaha"
       },
       {
-        url: "images/bathysmal (2).png",
+        url: "images/bathysmal2.webp",
         text: "Bathysmal"
       },
       {
-        url: "images/aeon b and algo.png",
+        url: "images/aeon b and algo.webp",
         text: "AeonB & Algorithm"
       },
       {
-        url: "images/aeon b and magu.png",
+        url: "images/aeon b and magu.webp",
         text: "AeonB & MaguKenki"
       },
       {
-        url: "images/ruin serpent and aeon b.png",
+        url: "images/ruin serpent and aeon b.webp",
         text: "Ruin Serpent & AeonB"
       },
       {
-        url: "images/aeon b and wolflord.png",
+        url: "images/aeon b and wolflord.webp",
         text: "AeonB & WolfLord"
       },
       {
-        url: "images/PMA&ALGO.png",
+        url: "images/pma-algo.webp",
         text: "PMA & Algorithm"
       },
       {
-        url: "images/ANDRIUS&SIGNORA.png",
+        url: "images/andrius signora.webp",
         text: "Andrius & Signora"
       },
       {
-        url: "images/geo and algo.png",
+        url: "images/geo-and-algo.webp",
         text: "Geo Hypotasis & Algorithm"
       },
       {
-        url: "images/GEO&TERROR.png",
+        url: "images/geoterror.webp",
         text: "Geo Hypotasis & Terrorshroom"
       },
       {
-        url: "images/geo vishop and scara.png",
+        url: "images/geo-vishop-and-scara.webp",
         text: "Geovishop & Scara"
       },
       {
-        url: "images/pyro and andrius.png",
+        url: "images/pyro and andrius.webp",
         text: "Pyro Hypostasis & Andrius"
       },
       {
-        url: "images/childe and signora.png",
+        url: "images/childe and signora.webp",
         text: "Childe & Signora"
       },
       {
-        url: "images/childe and magu.png",
+        url: "images/childe and magu.webp",
         text: "Childe & MaguKenki"
       },
       {
-        url: "images/tm and childe.png",
+        url: "images/tm-and-childe.webp",
         text: "TM & Tartaglia"
       },
       {
-        url: "images/tm and terrorshroom.png",
+        url: "images/tm and terrorshroom.webp",
         text: "TM & Terrorshroom"
       },
       {
-        url: "images/kenki.png",
+        url: "images/kenki.webp",
         text: "Maguu"
       },
       {
-        url: "images/pyro and magu.png",
+        url: "images/pyro and magu.webp",
         text: "Pyro Hypotasis & Maguu"
       },
       {
-        url: "images/primogeovishop.png",
+        url: "images/primogeovishop.webp",
         text: "Primo Geovishop"
       },
       {
-        url: "images/raiden shogun (2).png",
+        url: "images/raiden shogun2.webp",
         text: "Raiden Shogun"
       },
       {
-        url: "images/ruin serpent (2).png",
+        url: "images/ruin serpent.webp",
         text: "Ruin Serpent"
       },
       {
-        url: "images/scara (2).png",
+        url: "images/scara.webp",
         text: "Scara"
       },
       {
-        url: "images/signora (2).png",
+        url: "images/signora.webp",
         text: "Signora"
       },
       {
-        url: "images/childe.png",
+        url: "images/childe2.webp",
         text: "Tartaglia"
       },
       {
-        url: "images/terrorshroom (2).png",
+        url: "images/terrorshroom2.webp",
         text: "Terrorshroom"
       },
       {
-        url: "images/TM.png",
+        url: "images/TM2.webp",
         text: "Thunder Manifestation"
       },
       {
-        url: "images/wolflord.png",
+        url: "images/wolflord2.webp",
         text: "Wolf Lord"
       },
       {
-        url: "images/ruin serpent and setekh.png",
+        url: "images/ruin serpent and setekh.webp",
         text: "Ruin Serpent & Setekh"
       },
       {
-        url: "images/oceanid and pyro hypo.png",
+        url: "images/oceanid-and-pyro-hypo.webp",
         text: "Oceanid & Pyro"
       },
       {
-        url: "images/Aeon b and setekh.png",
+        url: "images/Aeon b and setekh.webp",
         text: "AeonB & Setekh"
       },
       {
-        url: "images/Aeon b and setekh.png",
-        text: "AeonB & Setekh"
-      },
-      {
-        url: "images/raiden and signora.png",
+        url: "images/raiden and signora.webp",
         text: "Raiden & Signora"
       },
       {
-        url: "images/terrorshroom geo hypo.png",
-        text: "Terrorshroom & Geo Hypo"
+        url: "images/pma2.webp",
+        text: "PMA"
+      },
+      {
+        url: "images/setekh wenut.webp",
+        text: "Setekh Wenut"
       },
     // Add more image objects here
   ];
@@ -160,7 +160,7 @@ var images = [
     }, 50);
     setTimeout(function() {
         clearInterval(intervalId);
-    }, 1000);
+    }, 7500);
     imageOutputModal.style.display = "block";
 }
   

@@ -360,7 +360,7 @@ grid-column: 2 / 3;
 }
 
 #image-output {
-  width: 35vh;
+  width: 25.5vw;
   height: auto;
   position: absolute;
   top: 50%;
@@ -369,6 +369,12 @@ grid-column: 2 / 3;
   animation: shake 0.5s ease-in-out infinite alternate;
   animation-iteration-count: 1;
 }
+
+@media screen and (max-width: 1366px) {
+  #image-output {
+    width: 27.5vw;
+  }
+  }
 
 
 @keyframes shake {
@@ -436,9 +442,12 @@ grid-column: 2 / 3;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  margin-top: 10vh;
+  margin-top: 15vh;
   font-family: 'Mihoyo';
   color: white;
+  font-size: larger;
+  font-weight: bolder;
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 600px) {
