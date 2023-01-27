@@ -232,17 +232,33 @@ body {
     url(images/CursesBackground.jpg);
 }
 
-#my-image {
+#left-image, #middle-image, #right-image {
     cursor: pointer;
     border: 2px solid rgb(247, 243, 243);
     border-radius: 4%;
     transition: transform 0.2s; /* Add a transition effect */
 }
 
-#my-image:hover {
+#left-image:hover {
   transform: scale(1.1); /* Scale the image up by 20% */
 }
 
+#middle-image:hover {
+  transform: scale(1.1); /* Scale the image up by 20% */
+}
+
+#right-image:hover {
+  transform: scale(1.1); /* Scale the image up by 20% */
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-container img {
+  width: 30%; /* adjust as needed */
+}
 
 .modal {
   display: none;
