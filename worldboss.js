@@ -160,7 +160,7 @@ var images = [
     }, 50);
     setTimeout(function() {
         clearInterval(intervalId);
-    }, 8500);
+    }, 5000);
     imageOutputModal.style.display = "block";
 }
   
