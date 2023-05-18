@@ -1,6 +1,5 @@
 var textOutputModal = document.getElementById("text-output-modal");
 var textOutput = document.getElementById("text-output");
-var zel = "rawr";
 
 var texts = [
   "No artifact challenge.",
@@ -28,7 +27,6 @@ var texts = [
   "Maguu Kenki w/ 4 Xianglings.",
   "Wolflord vs 4 Noelles.",
   "Kill pyro regisvine using barbara only.",
-  "test.",
 ];
 
 function randomText() {
