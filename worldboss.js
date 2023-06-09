@@ -67,14 +67,6 @@ var images = [
         url: "images/setekh wenut.webp",
         text: "Setekh Wenut"
       },
-      {
-        url: "images/setekh wenut.webp",
-        text: "Setekh Wenut"
-      },
-      {
-        url: "images/eulsNani.png",
-        text: "Apep"
-      },
     // Add more image objects here
   ];
   
