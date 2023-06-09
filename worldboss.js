@@ -68,8 +68,7 @@ var images = [
         text: "Setekh Wenut"
       },
       {
-        url: "images/eulsNani.png",
-        text: "Apep"
+        text: "Apep (No Image)"
       },
     // Add more image objects here
   ];
