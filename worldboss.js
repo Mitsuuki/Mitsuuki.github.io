@@ -72,7 +72,7 @@ var images = [
         text: "Setekh Wenut"
       },
       {
-        url: "images/eulsNani",
+        url: "images/eulsNani.png",
         text: "Apep (Temporary Image)"
       },
     // Add more image objects here
