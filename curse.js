@@ -2,6 +2,8 @@ var textOutputModal = document.getElementById("text-output-modal");
 var textOutput = document.getElementById("text-output");
 
 var texts = [
+    "Surprise blessing: Obtain 3 skips for boss.",
+    "Surprise blessing: Obtain 3 skips for curses.",
     "Surprise blessing: Euls must participate in the team fight + reroll for curse. - <3",
     "Starter Character vs Bathysmal - LetmeSleep",
     "Regular Banning",
