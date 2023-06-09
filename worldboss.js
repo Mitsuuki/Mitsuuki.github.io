@@ -20,68 +20,8 @@ var images = [
         text: "Bathysmal"
       },
       {
-        url: "images/aeon b and algo.webp",
-        text: "AeonB & Algorithm"
-      },
-      {
-        url: "images/aeon b and magu.webp",
-        text: "AeonB & MaguKenki"
-      },
-      {
-        url: "images/ruin serpent and aeon b.webp",
-        text: "Ruin Serpent & AeonB"
-      },
-      {
-        url: "images/aeon b and wolflord.webp",
-        text: "AeonB & WolfLord"
-      },
-      {
-        url: "images/pma-algo.webp",
-        text: "PMA & Algorithm"
-      },
-      {
-        url: "images/andrius signora.webp",
-        text: "Andrius & Signora"
-      },
-      {
-        url: "images/geo-and-algo.webp",
-        text: "Geo Hypotasis & Algorithm"
-      },
-      {
-        url: "images/geoterror.webp",
-        text: "Geo Hypotasis & Terrorshroom"
-      },
-      {
-        url: "images/geo-vishop-and-scara.webp",
-        text: "Geovishop & Scara"
-      },
-      {
-        url: "images/pyro and andrius.webp",
-        text: "Pyro Hypostasis & Andrius"
-      },
-      {
-        url: "images/childe and signora.webp",
-        text: "Childe & Signora"
-      },
-      {
-        url: "images/childe and magu.webp",
-        text: "Childe & MaguKenki"
-      },
-      {
-        url: "images/tm-and-childe.webp",
-        text: "TM & Tartaglia"
-      },
-      {
-        url: "images/tm and terrorshroom.webp",
-        text: "TM & Terrorshroom"
-      },
-      {
         url: "images/kenki.webp",
         text: "Maguu"
-      },
-      {
-        url: "images/pyro and magu.webp",
-        text: "Pyro Hypotasis & Maguu"
       },
       {
         url: "images/primogeovishop.webp",
@@ -120,28 +60,20 @@ var images = [
         text: "Wolf Lord"
       },
       {
-        url: "images/ruin serpent and setekh.webp",
-        text: "Ruin Serpent & Setekh"
-      },
-      {
-        url: "images/oceanid-and-pyro-hypo.webp",
-        text: "Oceanid & Pyro"
-      },
-      {
-        url: "images/Aeon b and setekh.webp",
-        text: "AeonB & Setekh"
-      },
-      {
-        url: "images/raiden and signora.webp",
-        text: "Raiden & Signora"
-      },
-      {
         url: "images/pma2.webp",
         text: "PMA"
       },
       {
         url: "images/setekh wenut.webp",
         text: "Setekh Wenut"
+      },
+      {
+        url: "images/setekh wenut.webp",
+        text: "Setekh Wenut"
+      },
+      {
+        url: "images/eulsNani",
+        text: "Apep (Temporary Image)"
       },
     // Add more image objects here
   ];
