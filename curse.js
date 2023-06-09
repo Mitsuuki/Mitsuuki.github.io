@@ -63,4 +63,4 @@ textOutputModal.addEventListener("click", function(event) {
     if (event.target === textOutputModal) {
         textOutputModal.style.display = "none";
     }
-});b
+});
