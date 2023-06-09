@@ -73,7 +73,7 @@ var images = [
       },
       {
         url: "images/eulsNani.png",
-        text: "Apep (Temporary Image)"
+        text: "Apep"
       },
     // Add more image objects here
   ];
