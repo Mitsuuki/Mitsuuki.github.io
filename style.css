@@ -95,24 +95,26 @@ body {
   
 
   .link1 {
-    background-image: url(images/HeadorTails.jpg);
+    background-image: url(images/HeadOrTailsV3.jpg);
   }
   .link2 {
-    background-image: url(images/Curses.jpg);
+    background-image: url(images/Blessing&CurseFront.jpg);
   }
   .link3 {
-    background-image: url(images/WorldBoss.jpg);
+    background-image: url(images/WorldBossBackground2.jpg);
   }
   .link4 {
-    background-image: url(images/Spinner.jpg);
+    background-image: url(images/Genshin_3.7.png);
   }
+
+  
   
 
 /* Head or Tails */
 .HeadOrTails{
   background-size: cover;
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url(images/HeadOrTailsBackground.jpg);
+    url(images/HeadOrTailsV3.jpg);
 }
 
 #coin {
@@ -123,8 +125,8 @@ body {
   }
   
   #coin.spin {
-  animation: spin 0.10s linear infinite;
-  }
+  animation: spin 0.10s cubic-bezier(0.25, 0.1, 0.25, 1) infinite;
+}
 
   @keyframes spin {
     from { transform: rotateY(0deg); }
@@ -223,6 +225,12 @@ body {
 #right-arrow:hover {
   transform: translateY(-50%) scale(2.5);
   color: #4CAF50; /* green */
+}
+/* Blessing */
+.Blessing{
+  background-size: cover;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+  url(images/BlessingBackground.jpg);
 }
 
 /* Curses */
